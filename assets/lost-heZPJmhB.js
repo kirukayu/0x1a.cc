@@ -1,0 +1,1 @@
+import{i as e,n as t,o as n,t as r}from"./main-Ez7JijkV.js";var i=r(),a=document.querySelector(`.lost__code`);i.ready.then(()=>{n(`.hud [data-reveal], .lost__main [data-reveal]`),e(a,t(a),1.8)});

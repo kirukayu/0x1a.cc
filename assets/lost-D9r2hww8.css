@@ -1,0 +1,1 @@
+.lost{place-items:center;min-height:100svh;display:grid}.lost__main{padding:var(--head) var(--gut) 40px;justify-items:start;gap:22px;display:grid}.lost__code{font-size:clamp(96px, 14vw, calc(176 * var(--u)));letter-spacing:-.03em;font-weight:900;line-height:.9}.lost__text{margin:0 0 8px;font-size:clamp(20px,2vw,28px);font-weight:300}

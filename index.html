@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru" data-i18n-title="doc.home">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>0x1A</title>
+<meta name="description" content="0x1A. Danganronpa V3 на русском и ещё два проекта.">
+<meta name="theme-color" content="#04070b">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://0x1a.cc/">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="0x1A">
+<meta property="og:description" content="Danganronpa V3 на русском и ещё два проекта.">
+<meta property="og:image" content="https://0x1a.cc/media/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="0x1A">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/martian-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+<style>html{background:#04070b}body{visibility:hidden}</style>
+<script>(function(d){d.classList.add("js");try{if(sessionStorage.getItem("0x1a.flood"))d.style.background="#142638"}catch(e){}setTimeout(function(){if(!window.__boot&&!document.hidden)d.classList.add("noboot")},7000)})(document.documentElement)</script>
+  <script type="module" crossorigin src="/assets/home-L3CaAJYq.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/main-Ez7JijkV.js">
+  <link rel="modulepreload" crossorigin href="/assets/projects-DFNECDfy.js">
+  <link rel="stylesheet" crossorigin href="/assets/main-BTXMD4eY.css">
+  <link rel="stylesheet" crossorigin href="/assets/home-BWocNorL.css">
+</head>
+<body>
+<canvas class="gl-canvas" id="gl" aria-hidden="true"></canvas>
+
+<header class="hud hud--home">
+  <a class="brand" href="/">0x1A</a>
+  <nav class="nav" data-reveal>
+    <a href="#projects" data-i18n="nav.projects">Проекты</a>
+    <a href="#contact" data-i18n="nav.contact" data-contact>Связь</a>
+    <div class="lang" role="group" aria-label="Язык" data-i18n-label="aria.lang"><button type="button" data-lang="ru">RU</button><i aria-hidden="true">/</i><button type="button" data-lang="en">EN</button></div>
+  </nav>
+</header>
+
+<div class="page home">
+  <div class="lead">
+    <header class="mast">
+      <h1 class="mast__id">
+        <span class="mast__mark fogtext" data-fog="text" data-floor="0.62">0x1A</span>
+      </h1>
+      <div class="board">
+        <p class="board__time" data-reveal><span class="odo" data-clock data-wake></span><span class="lbl" data-i18n="status.msk">МСК</span></p>
+        <p class="board__line board__now" data-reveal><span class="lbl" data-i18n="status.now">Сейчас</span> <b data-i18n="status.task">редактура drv3ru</b></p>
+        <p class="board__line board__last" data-reveal><span class="lbl" data-i18n="status.release">Релиз</span> <b data-i18n="status.release.v">2 октября</b></p>
+      </div>
+    </header>
+
+    <main class="deck" id="projects">
+      <h2 class="sr" id="idx-h" data-i18n="idx.h">Проекты</h2>
+      <ol class="index" aria-labelledby="idx-h">
+        <li class="entry entry--rel is-sel" data-default data-href="/drv3ru/" data-frames="title,trial,duel,silence" data-caps="strip.title,strip.trial,strip.duel,strip.silence" data-lede="p1.lede">
+          <a class="entry__hit" href="/drv3ru/" aria-current="true" aria-label="01. Danganronpa V3 на русском. Перевод, бета 1" data-i18n-label="aria.entry.01">
+            <span class="entry__meta" data-reveal><span class="no">01</span><span data-i18n="kind.translation">Перевод</span><span class="state" data-i18n="feature.state">Бета 1</span></span>
+            <span class="entry__name" aria-hidden="true">
+              <span class="entry__thin" data-reveal data-i18n="title.thin">Danganronpa V3</span>
+              <span class="entry__fog fogtext" data-fog="text" data-floor="0.6" data-i18n="title.fog">на русском</span>
+            </span>
+          </a>
+        </li>
+        <li class="entry entry--veil" data-lede="veil.lede">
+          <button class="entry__hit" type="button" tabindex="-1" aria-current="false" aria-label="02. Порт, в работе. Название пока скрыто" data-i18n-label="aria.entry.02">
+            <span class="entry__meta" data-reveal><span class="no">02</span><span data-i18n="kind.port">Порт</span><span class="state" data-i18n="state.wip">В работе</span></span>
+            <span class="entry__name" aria-hidden="true">
+              <span class="ghost ghost--thin fogtext" data-fog="text" data-ghost="513" data-floor="0.3" data-alpha="0.55" style="--w: 7.2em"></span>
+              <span class="ghost ghost--heavy fogtext" data-fog="text" data-ghost="2049" data-floor="0.34" data-alpha="0.75" style="--w: 4.4em"></span>
+            </span>
+          </button>
+        </li>
+        <li class="entry entry--veil" data-lede="veil.lede">
+          <button class="entry__hit" type="button" tabindex="-1" aria-current="false" aria-label="03. Порт, в планах. Название пока скрыто" data-i18n-label="aria.entry.03">
+            <span class="entry__meta" data-reveal><span class="no">03</span><span data-i18n="kind.port">Порт</span><span class="state" data-i18n="state.planned">В планах</span></span>
+            <span class="entry__name" aria-hidden="true">
+              <span class="ghost ghost--thin fogtext" data-fog="text" data-ghost="1187" data-floor="0.3" data-alpha="0.55" style="--w: 5.6em"></span>
+              <span class="ghost ghost--heavy fogtext" data-fog="text" data-ghost="3301" data-floor="0.34" data-alpha="0.75" style="--w: 5em"></span>
+            </span>
+          </button>
+        </li>
+      </ol>
+
+      <section class="view" aria-labelledby="idx-h">
+        <p class="view__lede" data-reveal data-i18n="p1.lede" aria-live="polite">Перевёл текст, текстуры и надписи в роликах.</p>
+        <span class="view__no fogtext" data-fog="text" data-floor="0.42" aria-hidden="true">01</span>
+        <figure class="frame view__win" data-gl="cycle" data-fog="halo" data-pad="22" data-feather="64" data-floor="0.16">
+          <img src="/media/title.webp" alt="Кадр из русской версии Danganronpa V3" data-i18n-alt="alt.frame" width="1600" height="900" draggable="false">
+          <i class="view__fill" data-fog="fill" data-floor="0.12" data-alpha="0" data-feather="32"></i>
+          <i class="frame__time" data-fog="line" data-floor="0.5"></i>
+          <span class="view__title" aria-hidden="true">
+            <span class="view__ghost ghost--thin fogtext" data-fog="text" data-ghost="513" data-floor="0.5" style="--w: 7.2em"></span>
+            <span class="view__ghost ghost--heavy fogtext" data-fog="text" data-ghost="2049" data-floor="0.58" style="--w: 4.4em"></span>
+          </span>
+          <a class="view__link" href="/drv3ru/" tabindex="-1" aria-hidden="true"></a>
+        </figure>
+        <div class="view__foot">
+          <p class="view__cap" data-reveal data-i18n="strip.title">Главное меню</p>
+          <div class="actions view__act view__act--rel" data-reveal>
+            <a class="btn" href="/drv3ru/#download" data-fog="hover"><span data-i18n="action.download">Скачать</span><span class="arr">→</span></a>
+            <a class="more" href="/drv3ru/"><span data-i18n="action.more">Подробнее</span><span class="arr">→</span><i class="ul" data-fog="underline" data-fog-trigger=".more"></i></a>
+          </div>
+          <div class="actions view__act view__act--veil" hidden>
+            <a class="more" href="https://t.me/zerox1a" target="_blank" rel="noopener"><span data-i18n="veil.go">Анонс в канале</span><span class="arr arr--ne">→</span><i class="ul" data-fog="underline" data-fog-trigger=".more"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot" id="contact">
+      <span class="lbl" data-reveal data-i18n="contact.label">Связь</span>
+      <a class="tg" href="https://t.me/zerox1a" target="_blank" rel="noopener" data-reveal>t.me/zerox1a<i class="ul" data-fog="underline" data-fog-trigger=".tg"></i></a>
+      <button class="copy" type="button" data-copy="https://t.me/zerox1a" data-reveal data-i18n="contact.copy">Копировать</button>
+      <span class="sign" data-reveal data-i18n="foot.sign">0x1A · 2026</span>
+    </footer>
+  </div>
+
+  <section class="clouds">
+    <p class="clouds__credit"><a href="https://www.shadertoy.com/view/3l23Rh" target="_blank" rel="noopener">Protean clouds</a> · nimitz, adapted · <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="noopener license">CC BY-NC-SA 3.0</a></p>
+  </section>
+</div>
+
+</body>
+</html>
